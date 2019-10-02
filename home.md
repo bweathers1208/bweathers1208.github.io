@@ -11,7 +11,7 @@ Currently I'm a bartender by trade, but clearly that's changing.
 
 My goal is to completely change my career path into being a full-time website coder/programmer, and eventually work my way up in the industry to be a web developer.
 Currently I'm more drawn to front-end stuff, but having barely begun to understand what the various avenues are I may change that in the future.
-A goal while I'm in the class is to completely immerse myself in the coding world the way I did in the dog world.
+My first goal while I'm in the class is to completely immerse myself in the coding world the way I did in the dog world, so that it becomes habit to talk and think about these things instead of being a chore I remind myself to do.
 
 # Contact Me
 
