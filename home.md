@@ -1,3 +1,7 @@
+<!DOCTYPE html>
+<html>
+<body>
+
 # About Me
 
 I'm Bri. My hometown is in Georgia, and I moved to Oklahoma as a military spouse. I have two dogs and a cat, and dog training is one of my hobbies.
