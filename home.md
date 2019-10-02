@@ -16,9 +16,13 @@ A goal while I'm in the class is to completely immerse myself in the coding worl
 # Contact Me
 
 You can contact me at:
+
 bweathers1208.github.io
+
 bweathers1208@gmail.com
+
 twitter.com/bweathers1208
+
 linkedin.com/in/bri-weathers
 
 # My Blog
