@@ -13,7 +13,7 @@ Currently I'm more drawn to front-end stuff, but having barely begun to understa
 <div>
 <h1>Contact Me</h1>
 <h3>You can reach me at:</h3>
-  <ul><li><a href="bweathers1208.github.io/home.md">Github Page</a></li><br>
+  <ul><li><a href="https://www.github.com/bweathers1208.github.io/home.md">Github Page</a></li><br>
   <li>bweathers1208@gmail.com</li><br>
   <li><a href="twitter.com/bweathers1208">Twitter</a></li><br>
     <li><a href="linkedin.com/in/bri-weathers">LinkedIn</a></li></ul>
