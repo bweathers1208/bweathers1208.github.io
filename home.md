@@ -15,8 +15,8 @@ Currently I'm more drawn to front-end stuff, but having barely begun to understa
 <h3>You can reach me at:</h3>
   <ul><li><a href="https://www.github.com/bweathers1208.github.io/home.md">Github Page</a></li><br>
   <li>bweathers1208@gmail.com</li><br>
-  <li><a href="twitter.com/bweathers1208">Twitter</a></li><br>
-    <li><a href="linkedin.com/in/bri-weathers">LinkedIn</a></li></ul>
+  <li><a href="https://www.twitter.com/bweathers1208">Twitter</a></li><br>
+    <li><a href="https://www.linkedin.com/in/bri-weathers">LinkedIn</a></li></ul>
 </div>
 <h1>My Blog</h1>
 <h2>Post 1 -- Oct 2, 2019</h2>
