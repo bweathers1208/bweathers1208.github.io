@@ -3,7 +3,7 @@
 <body>
 <div>
 <h1>About Me</h1>
-<p>I'm Bri. My hometown is in Georgia, and I moved to Oklahoma as a military spouse. I have two dogs and a cat, and <a href="http://www.germanshepherddog.com">dog training</a> is one of my main hobbies.<br>Currently I'm a bartender by trade, but clearly that's changing.</p>
+<p>I'm Bri. My hometown is in Georgia, and I moved to Oklahoma as a military spouse. I have two dogs and a cat, and <a href="http://www.germanshepherddog.com" target="_blank">dog training</a> is one of my main hobbies.<br>Currently I'm a bartender by trade, but clearly that's changing.</p>
 </div>
 <div>
   <h1>Goals</h1>
