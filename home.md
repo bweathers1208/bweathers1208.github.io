@@ -17,7 +17,7 @@ Currently I'm more drawn to front-end stuff, but having barely begun to understa
   <li>bweathers1208@gmail.com</li><br>
   <li><a href="https://www.twitter.com/bweathers1208">Twitter</a></li><br>
     <li><a href="http://twitter.com/weathers_bri" target="_blank" rel="noopener">
-      <img class="icon-img" alt="twitter" src="https://res.cloudinary.com/practicaldev/image/upload/v1456342401/twitter-logo-silhouette_1_letrgc.png" width="22" height="22">weathers_bri</a>
+      <img class="icon-img" alt="twitter" src="https://icon-library.net/icon/twitter-icon-vector-free-2.html" width="22" height="22">weathers_bri</a>
     <li><a href="https://www.linkedin.com/in/bri-weathers">LinkedIn</a></li></ul>
 </div>
 <h1>My Blog</h1>
