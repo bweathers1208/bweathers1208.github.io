@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html>
-<div>
+  <head>
+    <style type="text/css">
+      h1 {
+      text-align: center;
+      color: green;
+      font-family: comic sans ms;
+      }
+    </style>
+  </head>
 <h1>About Me</h1>
   <body>
    <p>My name is Bri. I'm from Augusta, GA, and -shameless plug- if anyone knows where I can find boiled peanuts in Oklahoma I will be your best friend forever! I have a German Shepherd named Tanto, a Belgian Malinois named Dub, and a cat named Max who always looks angry in photos.</p>
