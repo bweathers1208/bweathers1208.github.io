@@ -1,13 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style type="text/css">
-      h1 {
-      text-align: center;
-      color: green;
-      font-family: comic sans ms;
-      }
-    </style>
+<link href ="stylesheet.css" rel="stylesheet" type="text/css">
   </head>
 <h1>About Me</h1>
   <body>
