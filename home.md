@@ -2,7 +2,7 @@
 <html>
 <head>
   <style> 
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="bweathers1208.github.io/Stylesheet.css">
   </style>
   </head>
   <body>
