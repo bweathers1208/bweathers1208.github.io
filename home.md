@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
-<head>Personal Website</head>
+<head>
+<style>
+<link href="Stylesheet.css" type="text/css" rel="stylesheet">
+
+Personal Website
+</head>
 <header>
 <nav>
 Navigational Links

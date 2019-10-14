@@ -1,15 +1,13 @@
+body {
+      font-family: Arial;
+}
 
-      h1 {
-      text-align: center;
-      color: green;
-      font-family: comic sans ms;
-      }
-      h2 {
-      text-align: left;
-      color: aqua;
-      font-family: times new roman;
-      }
-p {
-      color: pink;
-      font-family: arial;
+h1 {
+      font-family: 'Comic Sans MS';
+}
+
+h3 {
+      color: purple;
+      font-size: 24px;
+      font-family: Helvetica;
 }
