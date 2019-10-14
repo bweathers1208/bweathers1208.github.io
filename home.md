@@ -15,6 +15,10 @@ Currently I'm more drawn to front-end stuff, but having barely begun to understa
   <li>bweathers1208@gmail.com</li><br>
   <li><a href="https://www.twitter.com/bweathers1208">Twitter</a></li><br>
     <li><a href="https://www.linkedin.com/in/bri-weathers">LinkedIn</a></li></ul>
+    <form action="/gmail.com" method="post"> 
+    <label for="message">Shoot me an email!</label>
+    <br>
+    <input type="text" name="email message" id="message">
 
 <h1>My Blog</h1>
       <h2><strong>Post 1-- Oct 6, 2019: How Dogsport Prepared Me For Learning How to Code</strong></h2>
