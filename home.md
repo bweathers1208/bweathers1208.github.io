@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-<head>Personal Website</head>
 <header>
 <nav>
 Navigational Links
@@ -13,6 +12,7 @@ Navigational Links
 </ul>
 </nav>
 </header>
+
   <body>
   <h1>About Me</h1>
    <p>My name is Bri. I'm from Augusta, GA, and -shameless plug- if anyone knows where I can find boiled peanuts in Oklahoma I will be your best friend forever! I have a German Shepherd named Tanto, a Belgian Malinois named Dub, and a cat named Max who always looks angry in photos.</p>
