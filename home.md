@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <style> 
-    <link rel="stylesheet" href="bweathers1208.github.io/Stylesheet.css">
-  </style>
-  </head>
+<header>
+<nav>
+Navigational Links
+<ul>
+<li>Home</li>
+<li>About Me</li>
+<li>Goals</li>
+<li>Blog</li>
+<li>Contact</li>
+</ul>
+</nav>
+</header>
+
   <body>
   <h1>About Me</h1>
    <p>My name is Bri. I'm from Augusta, GA, and -shameless plug- if anyone knows where I can find boiled peanuts in Oklahoma I will be your best friend forever! I have a German Shepherd named Tanto, a Belgian Malinois named Dub, and a cat named Max who always looks angry in photos.</p>
@@ -19,6 +27,10 @@ Currently I'm more drawn to front-end stuff, but having barely begun to understa
   <li>bweathers1208@gmail.com</li><br>
   <li><a href="https://www.twitter.com/bweathers1208">Twitter</a></li><br>
     <li><a href="https://www.linkedin.com/in/bri-weathers">LinkedIn</a></li></ul>
+    <form action="/gmail.com" method="post"> 
+    <label for="message">Shoot me an email!</label>
+    <br>
+    <input type="text" name="email message" id="message">
 
 <h1>My Blog</h1>
       <h2><strong>Post 1-- Oct 6, 2019: How Dogsport Prepared Me For Learning How to Code</strong></h2>
