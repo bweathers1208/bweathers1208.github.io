@@ -26,7 +26,7 @@ Currently I'm more drawn to front-end stuff, but having barely begun to understa
 <div>
 <h1>Contact Me</h1>
   <ul><li><a href="https://www.github.com/bweathers1208" target="_blank"><img src="https://thepracticaldev.s3.amazonaws.com/i/jbexka1sp2xlmvvt6mpx.jpeg" img height=24 alt="Github"/></a></li><br>
-  <li><a href="https://www.twitter.com/bweathers1208" target="_blank"><img src="https://thepracticaldev.s3.amazonaws.com/i/nsi9952j57jhi19byo1m.png" img height=24px alt="Twitter"/></a></li><br>
+  <li><a href="https://www.twitter.com/p_Bri_andJ" target="_blank"><img src="https://thepracticaldev.s3.amazonaws.com/i/nsi9952j57jhi19byo1m.png" img height=24px alt="Twitter"/></a></li><br>
     <li><a href="https://www.linkedin.com/in/bri-weathers" target="_blank"><img src="https://thepracticaldev.s3.amazonaws.com/i/qb2m35p6fvkuhau9oq8i.png"img height=24px alt="LinkedIn"/></a></li></ul>
     <form action="/gmail.com" method="post"> 
     <label for="message">Or shoot me an email!</label>
