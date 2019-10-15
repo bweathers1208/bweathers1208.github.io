@@ -1,7 +1,17 @@
 body {
-      font-family: Arial;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
-      font-family: Georgia;
+  color: black;
+      font-family: 'Kanit', sans-serif;
+}
+
+figure {
+  float: center;
+text-align: center;
+font-style: italic;
+font-size: smaller; 
+font-family: Arial;
 }
