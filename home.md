@@ -1,19 +1,46 @@
 <!DOCTYPE html>
 <html>
-<header>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Bri Weathers</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
    <link href="https://fonts.googleapis.com/css?family=Kanit|Montserrat&display=swap" rel="stylesheet"> 
-<nav>
-Navigation
-<ul>
-<li>Home</li>
-<li>About Me</li>
-<li>Goals</li>
-<li>Blog</li>
-<li>Contact</li>
-</ul>
-</nav>
-</header>
+    <link rel='stylesheet' type='text/css' media='screen' href='Main.css'>
+    <script src='main.js'></script>
+
+
+        <div class="topnav" id="myTopnav">
+          <a href="#home">Home</a>
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        
+        <div style="padding-left:16px">
+          <h2>Naaaaaaaaaaaaavigation!</h2>
+          <p>This is where we'll type things, although right now
+            I have no idea what to type in here. Characters Characters typing things text.
+          </p>
+        </div>
+        
+        <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+</head>
 
   <body>
   <h1>About Me</h1>
