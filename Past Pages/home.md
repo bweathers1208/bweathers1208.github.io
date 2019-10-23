@@ -2,7 +2,7 @@
 <html>
 <head>
 <style>
-<link href="Stylesheet.css" type="text/css" rel="stylesheet">
+<link href="bweathers1208.github.io/Stylesheet.css" type="text/css" rel="stylesheet">
 
 Personal Website
 </head>
@@ -64,4 +64,5 @@ Before I began actually training my puppy two years ago, I'd been attending a we
       Everyone I know who practices Schutzhund training (or even Mondio ring, French ring, solely obedience -- any sport,) says they constantly have that "Clueless but Capable" feeling looming overhead with regard to their dogs, no matter how impressive the dog and its training may appear to be to other people. I honestly think it's a side effect of being a self-starter with a strong work ethic and a high expectation for the output of that work, due to having a passion for the work. Training those dogs is not easy, to say the least. It requires dedication, a constant sense of awareness, attention to detail, consistency, self-motivation, ...sometimes even giving up time with loved ones to achieve your goal. Even so, I absolutely love the discipline of it because I'm constantly learning more about a completely new skill that is out of the ordinary, that I'm passionate about, and that reminds me I can indeed do things I never thought possible. And over my first week of enrollment in coding school/bootcamp, I can already see that spark for coding beginning to light a similar flame.</p>
 <h6>"Choose a job you love, and you'll never work a day in your life." <br>-Unknown</h6>
   </body>
+  </style>
 </html>
