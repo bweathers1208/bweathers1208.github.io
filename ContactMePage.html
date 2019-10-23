@@ -23,19 +23,20 @@
         
         
         <!--Contact Form from w3schools-->
-                <div id="Contact" class="contact">
-                          <form action="action_page.php">
-                        
-                            <label for="fname">First Name</label>
-                            <input type="text" id="fname" name="firstname" placeholder="Jane">
+                <div id="Form" class="contact">
+                  <form action="action_page.php">
+                    <div id="title">Shoot me an Email!</div>
+                    <div id="fields">
+                    <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Jane"><br>
+                    <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Doe">
                         <br>
-                            <label for="lname">Last Name</label>
-                            <input type="text" id="lname" name="lastname" placeholder="Doe">
+                    <label for="subject">What's This About?</label><br>
+                    <textarea id="subject" name="subject" placeholder="Hey, Bri! Here's a million dollars!"></textarea>
                         <br>
-                            <label for="subject">What's This About?</label><br>
-                            <textarea id="subject" name="subject" placeholder="Here's a million dollars!"></textarea>
-                        <br>
-                            <input type="submit" value="Send!">
+                  </div>
+                    <input type="submit" value="Send!">
                         <br>
                           </form>
                         </div> 
