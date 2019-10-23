@@ -141,3 +141,10 @@ input[type=submit]:hover {
     padding: 10px;
     
 } 
+
+figure {
+  max-height: 18px;
+  max-width: 20px;
+  position: inline;
+  
+}
