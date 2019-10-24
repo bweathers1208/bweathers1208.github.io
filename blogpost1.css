@@ -9,7 +9,7 @@ body {
   }
 
 h1 {
-    font-size: calc(20px + (33 - 20) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(24px + (36 - 24) * ((100vw - 300px) / (1600 - 300)));
     font-family: 'DM Serif Text', serif;
 }
 
@@ -36,7 +36,12 @@ p {
       flex: 100%;
       max-width: 100%;
     }
-  }
+}
+
+.centered {
+    position: center;
+    width: 75%;
+}
 
 figcaption {
     font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300))) ;
@@ -54,6 +59,7 @@ figcaption {
       transition: top 0.3s;
       color: whitesmoke;
   }
+
     /*Navbar text*/
   #navbar a {
       float: left;
