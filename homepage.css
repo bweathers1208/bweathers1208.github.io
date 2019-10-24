@@ -9,7 +9,7 @@ body {
     margin: 0;
     font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
     font-size: calc(8px + (16 - 8) * ((100vw - 300px) / (1600 - 300)));
-    padding-top: 55px;
+    padding-top: 60px;
   }
 
 h1 {
