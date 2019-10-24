@@ -1,8 +1,6 @@
 /* Verdana-based sans serif stack 
 font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;*/
 
-
-
 body {
     margin: 0;
     font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
@@ -15,6 +13,23 @@ h1 {
     font-family: 'DM Serif Text', serif;
 }
 
+h2 {
+    font-size: calc(18px + (28 - 18) * ((100vw - 300px) / (1600 - 300)));
+    font-family: 'Alice', serif;
+    font-style: bold;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.generaltext {
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: 75%;
+    position: center;
+    text-align: justify;
+}
   
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
@@ -23,6 +38,13 @@ h1 {
       max-width: 100%;
     }
   }
+
+figcaption {
+    font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300))) ;
+    text-align: justify;
+    font-family: 'Gentium Basic', serif;
+    font-style: italic;
+}
 
 /*Navigation Bar*/  
   #navbar {
