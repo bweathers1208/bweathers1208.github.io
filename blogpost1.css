@@ -15,8 +15,7 @@ h1 {
 
 h2 {
     font-size: calc(18px + (28 - 18) * ((100vw - 300px) / (1600 - 300)));
-    font-family: 'Alice', serif;
-    font-style: bold;
+    font-family: 'DM Serif Text', serif;
 }
 
 p {
@@ -26,8 +25,8 @@ p {
 .generaltext {
     padding-left: 50px;
     padding-right: 50px;
-    max-width: 75%;
-    position: center;
+    max-width: 60%;
+    float: center;
     text-align: justify;
 }
   

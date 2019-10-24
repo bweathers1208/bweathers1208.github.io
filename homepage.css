@@ -1,7 +1,9 @@
 /* Verdana-based sans serif stack 
 font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;*/
 
-
+* {
+  background-color: rgba(61, 59, 59, 0.521);
+}
 
 body {
     margin: 0;
@@ -14,6 +16,8 @@ h1 {
     font-size: calc(20px + (33 - 20) * ((100vw - 300px) / (1600 - 300)));
     font-family: 'DM Serif Text', serif;
 }
+
+
 
 /*Background Grid Images*/
 .row {
