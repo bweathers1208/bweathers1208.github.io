@@ -6,7 +6,9 @@ body {
     font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
     font-size: calc(8px + (16 - 8) * ((100vw - 300px) / (1600 - 300)));
     padding-top: 60px;
-  }
+    height: 3000px; /* Used to enable scrolling */
+    background: linear-gradient(55deg, #000000 0%, #888888 51%, #ffffff 85%);
+    }
 
 h1 {
     font-size: calc(24px + (36 - 24) * ((100vw - 300px) / (1600 - 300)));
