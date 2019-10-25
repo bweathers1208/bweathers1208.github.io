@@ -3,6 +3,9 @@
 Verdana-based sans serif stack 
 font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;*/
 
+
+/*Home Page Text Styling
+-------------------------*/
 body {
     margin: 0;
     font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
@@ -17,32 +20,25 @@ h1 {
     font-family: 'DM Serif Text', serif;
 }
 
-
-
-/*Background Grid Images*/
+/*Background Grid Images- Home Page
+------------------------------------*/
 .row {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
   }
   
-  /* Create four equal columns that sits next to each other */
+  /*format of columns from w3School
+  "/* Create four equal columns that sits next to each other"
+   ----------------------------------------------------------*/
   .column {
     flex: 25%;
     max-width: 24%;
     padding: 0 4px;
   }
-
-#About {
-  float: 50%;
-  max-width: 50%;
-  padding-right: 25%;
-  padding-left: 25%;
-  flex-wrap: wrap;
-  display: flex;
-  text-align: justify;
-}
   
+  /*Not sure
+  ------------*/
   .column img {
     margin-top: 8px;
     vertical-align: middle;
@@ -151,4 +147,16 @@ figure {
   max-width: 20px;
   position: inline;
   
+}
+
+/*About Page
+-------------*/
+#About {
+  float: 50%;
+  max-width: 50%;
+  padding-right: 25%;
+  padding-left: 25%;
+  flex-wrap: wrap;
+  display: flex;
+  text-align: justify;
 }
