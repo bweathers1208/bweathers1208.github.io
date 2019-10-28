@@ -11,8 +11,6 @@ body {
     font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
     font-size: calc(8px + (16 - 8) * ((100vw - 300px) / (1600 - 300)));
     padding-top: 60px;
-    height: 3000px; /* Used to enable scrolling */
-    background: linear-gradient(55deg, #000000 0%, #888888 51%, #ffffff 85%);
     }
 
 h1 {
@@ -114,49 +112,4 @@ textarea {
   height: 100%;
   box-sizing: content-box;
   font-family: Verdana;
-}
-    /*Submit button design*/
-input[type=submit] {
-    background-color: #e71710;
-    color: white;
-    border: solid 1px black;
-    padding: 5px;
-    font-family: Verdana;
-    font-size:16px;
-    cursor: pointer;
-}
-    /*Submit button when mouse is over it*/
-input[type=submit]:hover {
-    background-color: #000000;
-    border: 1px solid #000000;
-    color: white;
-    padding: 5px;
-    font-size:16px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-    /*Area around submit button*/
-.contact {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 10px;
-    
-} 
-
-figure {
-  max-height: 18px;
-  max-width: 20px;
-  position: inline;
-  
-}
-
-/*About Page
--------------*/
-#About {
-  float: 50%;
-  max-width: 50%;
-  padding-right: 25%;
-  padding-left: 25%;
-  flex-wrap: wrap;
-  display: flex;
-  text-align: justify;
 }
