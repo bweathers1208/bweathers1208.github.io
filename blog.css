@@ -36,7 +36,6 @@ body {
 .title h3{
   font-size: 1.2em;
   color: #ffffff;
-  text-transform: uppercase;
 }
 
 .project .title{
@@ -48,11 +47,20 @@ body {
 }
 
 .blog .title{
-  background-color: #ff9800;
+  background-color: #302f2fee;
+}
+
+.blog:hover .title{
+  background-color: #972259;
 }
 
 .photo .title{
-  background-color: #f44336;
+  background-color: #4746466c;
+}
+
+.photo:hover .title{
+  background-color: rgb(250, 114, 104);
+
 }
 
 .desc{
