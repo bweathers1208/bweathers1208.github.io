@@ -85,7 +85,7 @@ img:hover {
   .column1 {
     width: 2px;
     height: auto;
-    display: none;
+    display: hidden;
   }
   .row {
     width: 98%;
