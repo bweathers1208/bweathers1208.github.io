@@ -71,8 +71,6 @@ p {
 }
 
 .asideleft {
-  padding-left: .5rem;
-  margin-left: .5rem;
   float: left;
   font-style: italic;
   text-align: right;
@@ -95,10 +93,16 @@ aside > p {
     img {
       height: 100px;
       width: auto;
+      border: none;
+      image align: center;
     }
     body {
       padding: none;
     }
+    h1 {
+      padding: none;
+    }
+
 }
 
 #britanto1 {
