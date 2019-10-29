@@ -81,7 +81,7 @@ img:hover {
 }
 
 /*larger screens, hide touch links*/
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 850px) {
   .column1 {
     width: 2px;
     height: auto;
@@ -92,7 +92,7 @@ img:hover {
   }
 }
  /*smaller screens, two columns*/
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 850px) {
     .column1 {
       flex: 49%;
       max-width: 49%;
