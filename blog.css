@@ -10,7 +10,7 @@ body {
   margin: 10px;
 	color: #374046;
 	background-color: #374046;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 1.15em;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -36,6 +36,7 @@ body {
 .title h3{
   font-size: 1.2em;
   color: #ffffff;
+  font-family: 'DM Serif text', serif;
 }
 
 .project .title{

@@ -35,32 +35,61 @@ body {
     font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
     font-size: calc(8px + (16 - 8) * ((100vw - 300px) / (1600 - 300)));
     padding-top: 55px; 
-    padding-right: 100px; 
+    padding-right: 20%; 
     padding-bottom: 10px; 
-    padding-left: 100px;
+    padding-left: 20%;
     text-align: justify;
   }
 
 h1 {
     font-size: calc(24px + (36 - 24) * ((100vw - 300px) / (1600 - 300)));
     font-family: 'DM Serif Text', serif;
-}
+    text-align: justify;
+    padding-left: 0px;
+   }
 
 h2 {
     font-size: calc(18px + (28 - 18) * ((100vw - 300px) / (1600 - 300)));
     font-family: 'DM Serif Text', serif;
-}
+    text-align: justify;
+    padding-left: 20px;
+   }
 
 p {
     font-family: 'Raleway', sans-serif;
+    text-align: justify;
+  }
+
+.asideright {
+  float: right;
+  font-style: italic;
+  text-align: left;
+  color: #000000;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
 }
 
-.generaltext {
-    padding-left: 50px;
-    padding-right: 50px;
-    max-width: 60%;
-    float: center;
-    text-align: justify;
+.asideleft {
+  padding-left: .5rem;
+  margin-left: .5rem;
+  float: left;
+  font-style: italic;
+  text-align: right;
+  color: #000000;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+}
+
+aside > p {
+  margin: .5rem;
 }
   
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -70,6 +99,24 @@ p {
       max-width: 100%;
     }
 }
+
+#britanto1 {
+  width: 300px;
+  height: auto;
+}
+#hera {
+  height: auto;
+  width: 300px;
+}
+#malindawar {
+  height: 300px;
+  width: auto;
+}
+#downtown {
+  height: 300px;
+  width: auto;
+}
+
 
 figcaption {
     font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300))) ;
