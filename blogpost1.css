@@ -94,13 +94,13 @@ aside > p {
       height: 100px;
       width: auto;
       border: none;
-      image align: center;
     }
     body {
       padding: none;
     }
     h1 {
       padding: none;
+      text-align: left;
     }
 
 }
