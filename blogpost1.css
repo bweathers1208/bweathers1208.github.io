@@ -68,9 +68,6 @@ p {
   width: -webkit-min-content;
   width: -moz-min-content;
   width: min-content;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
 }
 
 .asideleft {
@@ -83,9 +80,6 @@ p {
   width: -webkit-min-content;
   width: -moz-min-content;
   width: min-content;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
 }
 
 aside > p {
@@ -93,10 +87,14 @@ aside > p {
 }
   
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 850px) {
     .column {
       flex: 100%;
       max-width: 100%;
+    }
+    img {
+      height: 100px;
+      width: auto;
     }
 }
 
