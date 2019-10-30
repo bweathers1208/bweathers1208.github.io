@@ -17,6 +17,24 @@ h1 {
     font-size: calc(24px + (36 - 24) * ((100vw - 300px) / (1600 - 300)));
     font-family: 'DM Serif Text', serif;
 }
+h2 {
+  font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1600 - 300)));
+  font-family: 'DM Serif Text', serif;
+  padding-top: 10px;
+  padding-bottom: 2px;
+}
+
+h3 {
+  font-size: calc(18px + (26 - 18) * ((100vw - 300px) / (1600 - 300)));
+  font-family: 'DM Serif Text', serif;
+  padding-top: 10px;
+  padding-bottom: 2px;
+}
+
+p {
+  padding-top: 2px;
+  padding-bottom: 0px;
+}
 
 /*Background Grid Images- Home Page
 ------------------------------------*/
@@ -149,11 +167,11 @@ figure {
 
 /*About Page
 -------------*/
-#About {
+.text {
   float: 50%;
-  max-width: 50%;
-  padding-right: 25%;
-  padding-left: 25%;
+  max-width: 75%;
+  padding-right: 12.5%;
+  padding-left: 12.5%;
   flex-wrap: wrap;
   display: flex;
   text-align: justify;
