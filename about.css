@@ -26,6 +26,8 @@ h3 {
 
 p {
   font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 /*Background Grid Images- Home Page
@@ -104,57 +106,17 @@ img:hover {
       color: black;
   }
 
-/*Contact Form*/
-input[type=text], select {
-    max-width: 50%;
-    padding: 0px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: content-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-    font-family: Verdana;
-}
-
 textarea {
   width: 100%;
   height: 100%;
   box-sizing: content-box;
   font-family: Verdana;
 }
-    /*Submit button design*/
-input[type=submit] {
-    background-color: #e71710;
-    color: white;
-    border: solid 1px black;
-    padding: 5px;
-    font-family: Verdana;
-    font-size:16px;
-    cursor: pointer;
-}
-    /*Submit button when mouse is over it*/
-input[type=submit]:hover {
-    background-color: #000000;
-    border: 1px solid #000000;
-    color: white;
-    padding: 5px;
-    font-size:16px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-    /*Area around submit button*/
-.contact {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 10px;
-    
-} 
 
 figure {
   max-height: 18px;
   max-width: 20px;
-  position: inline;
-  
+  position: inline; 
 }
 
 /*About Page
