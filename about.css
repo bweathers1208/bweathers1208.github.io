@@ -75,13 +75,24 @@ img {
       flex: 50%;
       max-width: 50%;
     }
+    .image {
+      height: 100px;
+      width: auto;
+      float: none;
+      position: relative;
   }
-  
+}
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
     .column {
       flex: 100%;
       max-width: 100%;
+    }
+    .image {
+      height: 100px;
+      width: auto;
+      float: none;
+      position: relative;
     }
   }
 
