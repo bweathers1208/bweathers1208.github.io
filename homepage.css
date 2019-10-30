@@ -100,8 +100,14 @@ img:hover {
       .column1 {
         flex: 100% 1 1 auto;
         justify-content: 50%;
+        display: flex;
         max-width: 50%;
         filter: contrast(120%);
+      }
+      .row {
+        width: 100%;
+        display: flex;
+        flex: 100% 1 1 auto;
       }
   }
   
