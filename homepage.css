@@ -102,6 +102,10 @@ img:hover {
         justify-content: 100%;
         display: flex;
         max-width: 49%;
+        flex: 50% 1 1 auto;
+        justify-content: 50%;
+        display: flex;
+        padding: 1em;
         filter: contrast(100%);
         padding: 1em;
       }
