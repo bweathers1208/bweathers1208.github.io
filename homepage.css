@@ -101,7 +101,7 @@ img:hover {
         flex: 100% 1 1 auto;
         justify-content: 100%;
         display: flex;
-        max-width: 50%;
+        max-width: 49%;
         filter: contrast(100%);
         padding: 1em;
       }
@@ -112,8 +112,9 @@ img:hover {
         padding: 1em;
       }
       .column {
-        flex: 25%;
+        flex: 24%;
         max-width: 24%;
+        justify-content: 100%;
         padding: 0 4px;
       }
   }
