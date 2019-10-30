@@ -93,6 +93,7 @@ img {
       width: auto;
       float: none;
       position: relative;
+      filter: opacity(25%);
     }
   }
 
