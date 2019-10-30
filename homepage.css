@@ -68,7 +68,13 @@ h1 {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
-    filter: contrast(100%) grayscale(100%)
+  }
+  #touchlink {
+    filter: contrast(120%);
+  }
+
+  #mouselink {
+    filter: grayscale(85%) contrast(120%);
   }
 
   #Socials {
@@ -92,8 +98,8 @@ img:hover {
  /*smaller screens, two columns*/
     @media screen and (max-width: 850px) {
       .column1 {
-        flex: 100% 1 1 auto;
-        justify-content: 100%;
+        flex: 50% 1 1 auto;
+        justify-content: 50%;
         max-width: 100%;
         filter: contrast(120%);
       }
