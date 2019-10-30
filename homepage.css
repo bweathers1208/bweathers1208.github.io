@@ -49,8 +49,9 @@ h1 {
 ------------------------------------*/
 .row {
     display: flex;
+    flex: 1 1 auto;
     flex-wrap: wrap;
-    padding: 0 4px;
+    padding: 2em;
   }
   
   /*format of columns from w3School
@@ -91,6 +92,7 @@ img:hover {
   }
   .row {
     width: 100%;
+
   }
 }
  /*smaller screens, two columns*/
