@@ -7,11 +7,8 @@ font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Dej
 /*Home Page Text Styling
 -------------------------*/
 body {
-    margin: 0;
-    font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
-    font-size: calc(10px + (18 - 10) * ((100vw - 300px) / (1600 - 300)));
-    padding-top: 60px;
-    }
+  padding-top: 60px;
+}
 
 h1 {
     font-size: calc(24px + (36 - 24) * ((100vw - 300px) / (1600 - 300)));
@@ -20,20 +17,15 @@ h1 {
 h2 {
   font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1600 - 300)));
   font-family: 'DM Serif Text', serif;
-  padding-top: 10px;
-  padding-bottom: 2px;
 }
 
 h3 {
   font-size: calc(18px + (26 - 18) * ((100vw - 300px) / (1600 - 300)));
   font-family: 'DM Serif Text', serif;
-  padding-top: 10px;
-  padding-bottom: 2px;
 }
 
 p {
-  padding-top: 2px;
-  padding-bottom: 0px;
+  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
 }
 
 /*Background Grid Images- Home Page
