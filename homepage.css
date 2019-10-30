@@ -118,7 +118,6 @@ img:hover {
       .column {
         flex: 24%;
         max-width: 24%;
-        justify-content: 100%;
         padding: 0 4px;
       }
   }
