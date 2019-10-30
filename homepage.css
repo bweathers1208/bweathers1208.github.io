@@ -62,7 +62,7 @@ h1 {
     padding: 0 4px;
   }
   
-  /*Not sure
+  /*photos with class "column"
   ------------*/
   .column img {
     margin-top: 8px;
@@ -81,28 +81,33 @@ img:hover {
 }
 
 /*larger screens, hide touch links*/
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 851px) {
   .column1 {
     display: none;
   }
   .row {
-    width: 98%;
+    width: 100%;
   }
 }
  /*smaller screens, two columns*/
     @media screen and (max-width: 850px) {
-    .column1 {
-      flex: 49%;
-      max-width: 49%;
-    }
+      .column1 {
+        flex: 1 1 auto;
+        max-width: 100%;
+        filter: contrast(120%);
+      }
   }
   
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
     .column1 {
-      flex: 49%;
-      max-width: 49%;
+      flex: 1 1 auto;
+      max-width: 100%;
     }
+  }
+
+  .column1 {
+    filter: contrast(120%);
   }
 
 
