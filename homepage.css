@@ -96,9 +96,9 @@ img:hover {
  /*smaller screens, two columns*/
     @media screen and (max-width: 850px) {
       .column1 {
-        flex: 50% 1 1 auto;
+        flex: 100% 1 1 auto;
         justify-content: 50%;
-        max-width: 100%;
+        max-width: 50%;
         filter: contrast(120%);
       }
   }
