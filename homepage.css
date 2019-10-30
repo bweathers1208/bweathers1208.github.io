@@ -51,7 +51,7 @@ h1 {
     display: flex;
     flex: 1 1 auto;
     flex-wrap: wrap;
-    padding: 1em;
+    padding: 0 4px;
   }
   
   /*format of columns from w3School
@@ -112,10 +112,9 @@ img:hover {
         padding: 1em;
       }
       .column {
-        flex: 100% 1 1 auto;
-        justify-content: 100%;
-        display: flex;
-        padding: 1em;
+        flex: 25%;
+        max-width: 24%;
+        padding: 0 4px;
       }
   }
   
