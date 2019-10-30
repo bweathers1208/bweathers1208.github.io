@@ -102,7 +102,7 @@ img:hover {
         justify-content: 50%;
         display: flex;
         max-width: 50%;
-        filter: contrast(120%);
+        filter: contrast(100%);
       }
       .row {
         width: 100%;
