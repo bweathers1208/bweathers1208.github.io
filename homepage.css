@@ -100,7 +100,7 @@ img:hover {
       .column1 {
         width: 24%;
         flex: 100% 1 1 auto;
-        flex-basis: auto;
+        flex-basis: 0;
         filter: contrast(100%);
         padding: 1em;
       }
