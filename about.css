@@ -30,12 +30,10 @@ font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Dej
   color: black;
 }
 
-
 /*About Page Text Styling
 -------------------------*/
 body {
   padding-top: 60px;
-  background-image: url("https://thepracticaldev.s3.amazonaws.com/i/fhv0wjlljmyqsp89nkx1.jpg") ;
   }
 
 h1 {
@@ -53,8 +51,9 @@ h3 {
 }
 
 p {
-  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
-  padding-left: 30px;
+  font-size: calc(14px + (24 - 14) * ((100vw - 300px) / (1600 - 300)));
+  font-family: 'Raleway', sans-serif;
+  padding-left: 10px;
   padding-right: 0px;
 }
 
@@ -100,10 +99,8 @@ p {
 /*About Page
 -------------*/
 .text {
-  float: 50%;
-  max-width: 75%;
-  padding-right: 12.5%;
-  padding-left: 12.5%;
+  padding-left: 10px;
+  padding-right: 10px;
   flex-wrap: wrap;
   display: flex;
   text-align: justify;
