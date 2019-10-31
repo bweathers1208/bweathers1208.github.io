@@ -35,7 +35,8 @@ font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Dej
 -------------------------*/
 body {
   padding-top: 60px;
-}
+  background-image: url("https://thepracticaldev.s3.amazonaws.com/i/fhv0wjlljmyqsp89nkx1.jpg") ;
+  }
 
 h1 {
     font-size: calc(24px + (36 - 24) * ((100vw - 300px) / (1600 - 300)));
@@ -57,13 +58,13 @@ p {
   padding-right: 0px;
 }
 
-.image {
+#chevron {
       float: right;
       position: relative;
       padding-right: 5%;
       margin-right: 10px;
       padding-left: 0%;
-      filter: contrast(120%) brightness(110%);
+      filter: contrast(120%) brightness(110%) opacity(100%);
       clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
 }
 
