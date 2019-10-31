@@ -1,7 +1,7 @@
 .grid {
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: repeat(auto-fill, minmax(450px,1fr));
+  grid-template-columns: repeat(auto-fill, minmax(30%,1fr));
   grid-auto-rows: 20px;
 }
 
@@ -64,20 +64,31 @@ body {
 
 }
 
-.desc{
+.desc text{
   padding: 10px 10px 5px 10px;
   text-align: justify;
 }
 
 .desc img{
-  width: 50%;
-  margin: 0 10px 10px 0;
-  float: left;
+  width: 100%;
+  margin: 0;
+  float: center;
+  padding: 0;
 }
 
 .desc p{
   margin-bottom: 10px;
   margin-top: 1px;
+}
+
+#barimage {
+  width: 100%;
+  height: auto;
+  filter: contrast(120%) grayscale(100%) ;
+}
+
+#barimage:hover {
+  filter: contrast(80%) grayscale(10%);
 }
 
 /*way to hide unneeded blog entry area without losing code for it*/

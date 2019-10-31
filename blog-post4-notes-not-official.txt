@@ -1,0 +1,22 @@
+
+          Greg:
+          -communication skills
+            (read btw. lines)
+            (listen to why theyre having a problem, not just "what" their problem is)
+            (really listen to needs, not just tech talk)
+          -handle stress
+            ()
+          -multitasking
+          -sense of urgency/prioritization
+            (understanding some things can wait, not walking in the room and blurting out problems)
+            (bigger problem for javascript or html to be malfunctioning than css font)
+          -conflict resolution
+
+          Toni:
+
+          Simon Sinek:
+          -start with why
+          -clarity, discipline, consistency (humble, approachable, )
+          -following
+          -not speaking, listening
+          -serving those that serve others
