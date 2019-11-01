@@ -99,9 +99,8 @@ img:hover {
     @media screen and (max-width: 850px) {
       .column1 {
         width: 24%;
-        flex: 100% 1 1 auto;
-        flex-basis: 0;
-        filter: contrast(100%);
+        flex: 100% ;;
+        filter: contrast(110%);
         padding: 1em;
       }
       .row {
