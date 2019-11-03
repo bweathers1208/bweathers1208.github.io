@@ -1,45 +1,110 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href="/contact/contact.css" type="text/css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=DM+Serif+Text&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Alice&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Alice|Raleway&display=swap" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+<link rel="stylesheet" href="contact.css">
+<title>Contact</title>
 </head>
-<body>
-        <div id="navbar">
-                <a href="/">Home</a>
-                  </div> 
-    <!--Social Media-->
-    <div class="row">
-        <div class="column">
-            <div id="Socials">
-            <h1>Socials</h1>
-            <a href="https://www.github.com/bweathers1208" target="_blank"><img src="https://thepracticaldev.s3.amazonaws.com/i/jbexka1sp2xlmvvt6mpx.jpeg" img height=24 img width=24px alt="Github"/></a>
-            <a href="https://www.twitter.com/p_Bri_andJ" target="_blank"><img src="https://thepracticaldev.s3.amazonaws.com/i/nsi9952j57jhi19byo1m.png" img height=24px img width=24px alt="Twitter"/></a>
-            <a href="https://www.linkedin.com/in/bri-weathers" target="_blank"><img src="https://thepracticaldev.s3.amazonaws.com/i/qb2m35p6fvkuhau9oq8i.png"img height=24px img width=24px alt="LinkedIn"/></a>
-        </div>
-</div>
 
-<a class="twitter-timeline" data-width="220" data-height="200" data-theme="dark" data-link-color="#2B7BB9" href="https://twitter.com/p_Bri_andJ?ref_src=twsrc%5Etfw">Tweets by p_Bri_andJ</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        
-        
-        
-        <!--Contact Form from w3schools-->
-                <div id="Form" class="contact">
-                  <form action="action_page.php">
-                    <div id="title">Shoot me an Email!</div>
-                    <div id="fields">
-                    <label for="fname">First Name</label>
-                            <input type="text" id="fname" name="firstname" placeholder="Jane"><br>
-                    <label for="lname">Last Name</label>
-                            <input type="text" id="lname" name="lastname" placeholder="Doe">
-                        <br>
-                    <label for="subject">What's This About?</label><br>
-                    <textarea id="subject" name="subject" placeholder="Hey, Bri! Here's a million dollars!"></textarea>
-                        <br>
-                  </div>
-                    <input type="submit" value="Send!">
-                        <br>
-                          </form>
-                        </div> 
-                        </div>
+
+<body>
+    <!-- General Layout: Heading, then Thirds -->
+    <!-- First Row of COLUMNS -->
+    <div class="columns is-vcentered">
+        <div class="column is-12" style="background-color: darkorchid;">
+            <h1>HOW CAN I HELP?</h1>
+        </div>
+    </div>
+    <!-- ^END OF HEADING --> 
+
+    <!-- Second Row Of COLUMNS -->
+    <div class="columns">
+        <!-- BLANK SPACE Column -->
+        <div class="column is-1"> <p>.  </p>
+        </div> 
+        <!-- Twitter/soc.Media Column -->
+        <div class="column is-2" style="background-color: coral;">
+            <a class="twitter-timeline" data-width="400" data-height="500" data-theme="dark" data-link-color="#2B7BB9" href="https://twitter.com/p_Bri_andJ?ref_src=twsrc%5Etfw">Tweets by p_Bri_andJ</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <!--Social Media-->
+            <div class="box">
+            <h2>Socials</h2>
+            <hr>
+            <a href="https://www.github.com/bweathers1208" target="_blank"><img src="https://thepracticaldev.s3.amazonaws.com/i/jbexka1sp2xlmvvt6mpx.jpeg" img height=30 img width=30px alt="Github"/></a>
+            <a href="https://www.twitter.com/p_Bri_andJ" target="_blank"><img src="https://thepracticaldev.s3.amazonaws.com/i/nsi9952j57jhi19byo1m.png" img height=30px img width=30px alt="Twitter"/></a>
+            <a href="https://www.linkedin.com/in/bri-weathers" target="_blank"><img src="https://thepracticaldev.s3.amazonaws.com/i/qb2m35p6fvkuhau9oq8i.png"img height=30px img width=30px alt="LinkedIn"/></a>
+            </div>
+        </div>
+        <!-- ^End of Social Media Column -->
+
+            <!-- Email Form Column -->
+            <!-- COLUMN CONTAINING EMAIL FORM THING -->
+            <div class="column is-3" style="background-color: cyan;">
+                <!--Contact Form from Bulma site-->
+                <form method="post" action="mailto:bweathers1208@gmail.com">
+                <!-- NAME INPUT FORM -->
+                <div class="field">
+                    <label class="label">Your name</label>
+                    <div class="control">
+                        <input class="input" type="text" placeholder="Text input">
+                    </div>
+                </div>
+                <!-- ^END OF NAME INPUT FORM -->
+          <!-- EMAIL INPUT FORM -->
+          <div class="field">
+            <label class="label">Email</label>
+            <div class="control has-icons-left has-icons-right">
+              <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
+              <span class="icon is-small is-left">
+                <i class="fas fa-envelope"></i>
+              </span>
+              <span class="icon is-small is-right">
+                <i class="fas fa-exclamation-triangle"></i>
+              </span>
+            </div>
+            <p class="help is-danger">This email is invalid</p>
+          </div>
+          <!-- ^END OF EMAIL INPUT FORM -->
+          <!-- SUBJECT DROPDOWN -->
+          <div class="field">
+            <label class="label">Subject</label>
+            <div class="control">
+              <div class="select">
+                <select>
+                  <option>General</option>
+                  <option>Question</option>
+                  <option>Complaint/Concern</option>
+                  <option>Shout Out!</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <!-- ^END OF SUBJECT DROPDOWN -->
+          <!-- MESSAGE SECTION -->
+          <div class="field">
+            <label class="label">Message</label>
+            <div class="control">
+              <textarea class="textarea" placeholder="Textarea"></textarea>
+            </div>
+          </div>
+          
+          <div class="field is-grouped">
+            <div class="control">
+              <button class="button is-link" value="SendEmail">Submit</button>
+            </div>
+            <div class="control">
+              <button class="button is-link is-light">Cancel</button>
+            </div>
+          </div>
+        </form>
+        </div>
+        <!-- ^End of Email Column -->
+        <div class="column"><img class="smaller" src="https://thepracticaldev.s3.amazonaws.com/i/v4d9se5zmkphri1t1e7q.jpg" alt="howcanihelp"/></div>
+    </div>
+    <!-- ^End of Second Row Of Columns-- After This You'll Be Below Email Row -->
+</body>
+</html>

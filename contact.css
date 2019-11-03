@@ -7,19 +7,24 @@ font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Dej
 /*Home Page Text Styling
 -------------------------*/
 body {
-    margin: 0;
     font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
     font-size: calc(8px + (16 - 8) * ((100vw - 300px) / (1600 - 300)));
     padding-top: 60px;
-    height: 3000px; /* Used to enable scrolling */
-    background: linear-gradient(55deg, #000000 0%, #888888 51%, #ffffff 85%);
     }
 
 h1 {
+  font-size: calc(30px + (44 - 30) * ((100vw - 300px) / (1600 - 300)));
+  font-family: 'DM Serif Text', serif;
+}
+
+h2 {
     font-size: calc(24px + (36 - 24) * ((100vw - 300px) / (1600 - 300)));
     font-family: 'DM Serif Text', serif;
 }
 
+hr {
+  color: #413f3f;
+}
 /*Background Grid Images- Home Page
 ------------------------------------*/
 .row {
@@ -31,28 +36,10 @@ h1 {
   /*format of columns from w3School
   "/* Create four equal columns that sits next to each other"
    ----------------------------------------------------------*/
-  .column {
-    flex: 25%;
-    max-width: 24%;
-    padding: 0 4px;
-  }
-  
-  /*Not sure
-  ------------*/
-  .column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-    filter: contrast(100%) grayscale(100%)
-  }
 
   #Socials {
     width:24px;
   }
-  
-img:hover {
-      filter: contrast(120%) grayscale(0%)
-}
 
  
     @media screen and (max-width: 800px) {
