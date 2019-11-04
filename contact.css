@@ -13,8 +13,9 @@ body {
     }
 
 h1 {
-  font-size: calc(30px + (44 - 30) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(40px + (64 - 40) * ((100vw - 300px) / (1600 - 300)));
   font-family: 'DM Serif Text', serif;
+  text-align: center;
 }
 
 h2 {
@@ -22,9 +23,6 @@ h2 {
     font-family: 'DM Serif Text', serif;
 }
 
-hr {
-  color: #413f3f;
-}
 /*Background Grid Images- Home Page
 ------------------------------------*/
 .row {
@@ -136,14 +134,9 @@ figure {
   
 }
 
-/*About Page
--------------*/
-#About {
-  float: 50%;
-  max-width: 50%;
-  padding-right: 25%;
-  padding-left: 25%;
-  flex-wrap: wrap;
-  display: flex;
-  text-align: justify;
+
+.smaller {
+  width: 80%;
+  height: auto;
+  float: center;
 }
