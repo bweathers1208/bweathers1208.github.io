@@ -34,11 +34,14 @@ font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Dej
 -------------------------*/
 body {
   padding-top: 60px;
+  background-color: #353535;
+  color: rgb(190, 190, 190);
   }
 
 h1 {
     font-size: calc(24px + (36 - 24) * ((100vw - 300px) / (1600 - 300)));
     font-family: 'DM Serif Text', serif;
+    color: #ffffff;
 }
 h2 {
   font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1600 - 300)));
@@ -55,6 +58,9 @@ p {
   font-family: 'Raleway', sans-serif;
   padding-left: 10px;
   padding-right: 0px;
+  flex-wrap: wrap;
+  display: flex;
+  text-align: justify;
 }
 
 p > a {
@@ -64,12 +70,11 @@ p > a {
 
 #chevron {
       float: right;
-      position: relative;
+      position: fixed;
       padding-right: 5%;
       margin-right: 10px;
       padding-left: 0%;
       filter: contrast(110%) brightness(120%) saturation(110%);
-      clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
 }
 
  
@@ -105,8 +110,7 @@ p > a {
 -------------*/
 .text {
   padding-left: 10px;
-  padding-right: 10px;
-  flex-wrap: wrap;
-  display: flex;
-  text-align: justify;
+  padding-right: 20px;
+  float: left;
+  width: 45%
 }

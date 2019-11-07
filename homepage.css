@@ -99,7 +99,7 @@ img:hover {
     @media screen and (max-width: 850px) {
       .column1 {
         width: 24%;
-        flex: 100% ;;
+        flex: 50% ;;
         filter: contrast(110%);
         padding: 1em;
       }
