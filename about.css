@@ -74,7 +74,8 @@ p > a {
 .textcolumn {
   width: 55%;
   height: 100%;
-  position: right;
+  padding: 50px;
+  background-color: #35353579;
   z-index: 15;
 }
 
@@ -87,10 +88,10 @@ p > a {
     height: 100%;
     position: fixed;
     background-color: #353535;
-    mix-blend-mode: multiply darken;
-    right: 0;
+    mix-blend-mode: multiply darken overlay;
+    right: 200px;
     bottom: 0;
-    z-index: 0;
+    z-index: -5;
 }
 
  
