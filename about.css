@@ -75,7 +75,7 @@ p > a {
   width: 55%;
   height: 100%;
   padding: 50px;
-  background-color: #35353579;
+  background-color: #353535bd;
   z-index: 15;
 }
 
@@ -101,11 +101,8 @@ p > a {
       max-width: 50%;
     }
     .imagecolumn {
-      height: 100px;
-      width: auto;
-      float: none;
       position: relative;
-      filter: opacity(25%);
+      z-index: -15;
   }
 }
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -115,10 +112,8 @@ p > a {
       max-width: 100%;
     }
     .imagecolumn {
-      height: 100px;
-      width: auto;
-      float: none;
-      position: relative;
-      filter: opacity(25%);
+      position: fixed;
+      z-index: -15;
+      left: 0;
     }
   }
