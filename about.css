@@ -22,7 +22,7 @@ font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Dej
   padding: 15px;
   text-decoration: none;
   font-family: 'DM Serif Text', serif;
-  font-size: 20px;
+  font-size: 24px;
 }
 /*Navbar background*/
 #navbar a:hover {
@@ -39,18 +39,20 @@ body {
   }
 
 h1 {
-    font-size: calc(24px + (36 - 24) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(30px + (38 - 30) * ((100vw - 300px) / (1600 - 300)));
     font-family: 'DM Serif Text', serif;
     color: #ffffff;
 }
 h2 {
   font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1600 - 300)));
   font-family: 'DM Serif Text', serif;
+  color: #ffffff;
 }
 
 h3 {
   font-size: calc(18px + (26 - 18) * ((100vw - 300px) / (1600 - 300)));
   font-family: 'DM Serif Text', serif;
+  color: #ffffff;
 }
 
 p {
@@ -61,29 +63,43 @@ p {
   flex-wrap: wrap;
   display: flex;
   text-align: justify;
+  width: 100%;
 }
 
 p > a {
   text-decoration: none;
-  color: #db037a
+  color: #db037a;
 }
 
-#chevron {
-      float: right;
-      position: fixed;
-      padding-right: 5%;
-      margin-right: 10px;
-      padding-left: 0%;
-      filter: contrast(110%) brightness(120%) saturation(110%);
+.textcolumn {
+  width: 55%;
+  height: 100%;
+  position: right;
+  z-index: 3;
+}
+
+.surrounding {
+  background-color: #353535;
+}
+
+.imagecolumn {
+    width: -60%;
+    height: 100%;
+    position: fixed;
+    background-color: #353535;
+    mix-blend-mode: multiply;
+    left: 0;
+    bottom: 0;
+    z-index: -5;
 }
 
  
-    @media screen and (max-width: 1000px) {
-    .column {
+@media screen and (max-width: 1000px) {
+    .textcolumn {
       flex: 50%;
       max-width: 50%;
     }
-    .image {
+    .imagecolumn {
       height: 100px;
       width: auto;
       float: none;
@@ -92,12 +108,12 @@ p > a {
   }
 }
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 850px) {
-    .column {
+@media screen and (max-width: 850px) {
+    .textcolumn {
       flex: 100%;
       max-width: 100%;
     }
-    .image {
+    .imagecolumn {
       height: 100px;
       width: auto;
       float: none;
@@ -105,12 +121,3 @@ p > a {
       filter: opacity(25%);
     }
   }
-
-/*About Page
--------------*/
-.text {
-  padding-left: 10px;
-  padding-right: 20px;
-  float: left;
-  width: 45%
-}
