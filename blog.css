@@ -5,6 +5,12 @@
   grid-auto-rows: 20px;
 }
 
+@media screen and (max-width: 575px) {
+  .grid {
+    display: block;
+  }
+ }
+
 /* Non-grid specific CSS */  
 body {
   margin: 10px;
