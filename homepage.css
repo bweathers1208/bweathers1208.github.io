@@ -45,6 +45,56 @@ h1 {
 }
 
 
+/* Dropdown Button */
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+
+
+
+
 /*Background Grid Images- Home Page
 ------------------------------------*/
 .row {
@@ -68,8 +118,15 @@ h1 {
   .column img {
     margin-top: 8px;
     vertical-align: middle;
-    width: 100%;
-    filter: grayscale(60%) contrast(100%);
+    max-width: 100%;
+    filter: grayscale(70%) contrast(100%);
+  }
+
+  .column1 img {
+    margin-top: 8px;
+    vertical-align: middle;
+    max-width: 100%;
+    filter: grayscale(70%) contrast(100%);
   }
 /*touchscreen links not black&white*/
   #touchlink {
@@ -85,42 +142,44 @@ img:hover {
       filter: contrast(120%) grayscale(0%)
 }
 
-/*larger screens, hide touch links*/
-@media screen and (min-width: 851px) {
+/*on screens that most likely have a pointer, (larger than iPad) 
+disable column 1; touchlink; dropdown; and resize images appropriately?*/
+@media screen and (min-width: 1025px) {
+  #touchlink {
+    display: none;
+  }
+  .dropdown {
+    display: none;
+  }
   .column1 {
     display: none;
   }
   .row {
-    width: 100%;
-
+    max-width: 100%;
+    height: auto;
   }
 }
  /*smaller screens, two columns*/
-    @media screen and (max-width: 850px) {
-      .column1 {
-        width: 24%;
-        flex: 50% ;;
+    @media screen and (max-width: 1024px) {
+      .column1 img {
+        max-width: 100%;
+        flex: 50% ;
         filter: contrast(110%);
-        padding: 1em;
-      }
-      .row {
-        width: 100%;
-        display: flex;
-        flex: 100% 1 1 auto;
-        padding: 1em;
-      }
-      .column {
-        flex: 24%;
-        max-width: 24%;
         padding: 0 4px;
       }
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column1 {
-      flex: 1 1 auto;
-      max-width: 100%;
-      filter: contrast(120%);
+      .row {
+        max-width: 100%;
+        display: block;
+        grid-gap: 10px;
+        grid-template-columns: repeat(auto-fill,);
+        grid-auto-rows: 20px;
+      }
+      .column {
+        max-width: 100%;
+        flex: 50%;
+        padding: 0 4px;
+      }
+      .column img {
+        filter: contrast(105%) grayscale(0%);
+      }
     }
-  }
