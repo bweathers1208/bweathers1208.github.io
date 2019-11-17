@@ -59,6 +59,10 @@ p {
     font-family: 'Raleway', sans-serif;
     text-align: justify;
   }
+p > a {
+  text-decoration: none;
+  color: #db037a;
+}
 
 .asideright {
   float: right;
