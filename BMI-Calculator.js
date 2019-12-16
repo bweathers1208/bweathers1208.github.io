@@ -1,5 +1,5 @@
-var heightInput = prompt("What is your height?")
-var weightInput = prompt("What is your weight?")
+var heightInput = prompt("What is your height (inches)?")
+var weightInput = prompt("What is your weight (pounds)?")
 
 
 
@@ -7,7 +7,8 @@ var weightInput = prompt("What is your weight?")
 //from Udemy class "The Complete 2020 Web Development Bootcamp," section 108
 function bmiCalculator(weight, height) {
     var calc = weight / (height * height);
-    return calc;
+    var calcTwo = calc * 703;
+    return calcTwo
     }
    
 var bmi = bmiCalculator(weightInput, heightInput);
