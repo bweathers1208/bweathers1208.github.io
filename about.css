@@ -64,6 +64,7 @@ p {
   display: flex;
   text-align: justify;
   width: 100%;
+  line-height: 30px;
 }
 
 p > a {
