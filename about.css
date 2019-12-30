@@ -24,17 +24,18 @@ font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Dej
   font-family: 'DM Serif Text', serif;
   font-size: 24px;
 }
+
+#selected {
+  background-color: rgb(73, 73, 73);
+  color: #db037a;
+}
+
 /*Navbar background*/
 .navbar a:hover {
   background-color: #ddd;
   color: black;
 }
 
-#selected {
-  background-color: rgb(73, 73, 73);
-  text-decoration: underline;
-  color: #db037a;
-}
 /*About Page Text Styling
 -------------------------*/
 body {
