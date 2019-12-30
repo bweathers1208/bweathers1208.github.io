@@ -30,7 +30,7 @@ font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Dej
   color: black;
 }
 
-.selected {
+#selected {
   background-color: rgb(73, 73, 73);
   text-decoration: underline;
   color: #db037a;

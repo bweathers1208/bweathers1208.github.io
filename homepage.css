@@ -44,7 +44,7 @@ h1 {
   color: black;
 }
 
-.selected {
+#selected {
   background-color: rgb(73, 73, 73);
   text-decoration: underline;
   color: #db037a;
