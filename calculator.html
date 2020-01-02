@@ -8,16 +8,18 @@
 </head>
 <body>
     <h1>Calculator</h1>
+    <p>(edit: this is still in progress! Button does not work correctly, yet!)</p>
     <h3>Welcome to my Calculator Project!</h3>
     <p>Here, if you enter two numbers and press the Add button,<br>
         the result will be your entries added together!</p>
 <hr>
-    <form action="/" method="post">
-        <input type="text" name="num1" placeholder="First Number">
-        <input type="text" name="num2" placeholder="Second Number">
-        <button type="submit" name="submit">Add!</button>
+    <form action="/calculator.html" method="post">
+        <input id="first" type="text" name="num1" placeholder="First Number">
+        <input id="sec" type="text" name="num2" placeholder="Second Number">
+        <button type="submit" name="submit" onclick="showResult(num1, num2)">Add!</button>
     </form>
 
 
 </body>
+<script src="calculator.js" type="text/JavaScript"></script>
 </html>

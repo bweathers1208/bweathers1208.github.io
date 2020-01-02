@@ -1,24 +1,13 @@
-const express = require("express");
-const bodyParser = require("body-parser");
+//jshint es6
 
-const app = express();
-app.use(bodyParser.urlencoded({extended: true}));
+const button = document.querySelector('button');
 
+button.addEventListener('click', showResult());
 
+function showResult(first, second){
+    var num1 = Number(form.querySelector("#first"));
+    var num2 = Number(form.querySelector("#sec"));
+    var result = num1 + num2;
 
-app.get("/", function(req, res){
-    res.sendFile(__dirname + "/index.html");
-});
-
-app.post("/", function(req, res){
-var num1 = Number(req.body.num1);
-var num2 = Number(req.body.num2);
-var result = num1 + num2;
-
-res.send("Your result is " + result);
-
-});
-
-app.listen(3000, function(){
-    console.log("Server has started at port 3000");
-});
+    return alert('Your result is ' + result);
+}
