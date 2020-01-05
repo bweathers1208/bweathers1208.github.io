@@ -65,7 +65,7 @@ h2 {
   }
 
 /*Navigation Bar*/  
-  #navbar {
+  .navbar {
       background-color: #333;
       position: fixed;
       top: 0;
@@ -74,7 +74,7 @@ h2 {
       color: whitesmoke;
   }
     /*Navbar text*/
-  #navbar a {
+  .navbar a {
       float: left;
       display: block;
       color: white;
@@ -82,10 +82,10 @@ h2 {
       padding: 15px;
       text-decoration: none;
       font-family: 'DM Serif Text', serif;
-      font-size: 20px;
+      font-size: 24px;
   }
     /*Navbar background*/
-  #navbar a:hover {
+  .navbar a:hover {
       background-color: #ddd;
       color: black;
   }
@@ -147,5 +147,6 @@ figure {
 .smaller {
   width: 100%;
   height: auto;
-  float: center;
+  border-radius: 1%;
+  margin-left: 15px;
 }
