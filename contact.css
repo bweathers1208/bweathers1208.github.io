@@ -10,7 +10,7 @@ body {
     font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
     font-size: calc(8px + (16 - 8) * ((100vw - 300px) / (1600 - 300)));
     padding-top: 60px;
-    background-color: #ffffff;
+    background-color: #4949499d;
     }
 
 h1 {
@@ -22,6 +22,13 @@ h1 {
 h2 {
     font-size: calc(24px + (36 - 24) * ((100vw - 300px) / (1600 - 300)));
     font-family: 'DM Serif Text', serif;
+    text-align: center;
+}
+
+/*Selected ID from Navbar*/
+#selected {
+  background-color: rgb(73, 73, 73);
+  color: #db037a;
 }
 
 /*Background Grid Images- Home Page
@@ -38,6 +45,7 @@ h2 {
 
   #Socials {
     width:24px;
+    align-content: center;
   }
 
  
@@ -137,7 +145,7 @@ figure {
 
 
 .smaller {
-  width: 80%;
+  width: 100%;
   height: auto;
   float: center;
 }
