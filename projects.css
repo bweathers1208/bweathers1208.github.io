@@ -29,3 +29,47 @@
     background-color: #ddd;
     color: black;
   }
+
+
+/*Projects Page Text Styling
+-------------------------*/
+body {
+    padding-top: 60px;
+    background-color: #353535;
+    color: rgb(190, 190, 190);
+    }
+  
+  h1 {
+      font-size: calc(30px + (38 - 30) * ((100vw - 300px) / (1600 - 300)));
+      font-family: 'DM Serif Text', serif;
+      color: #ffffff;
+  }
+  h2 {
+    font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1600 - 300)));
+    font-family: 'DM Serif Text', serif;
+    color: #ffffff;
+  }
+  
+  h3 {
+    font-size: calc(18px + (26 - 18) * ((100vw - 300px) / (1600 - 300)));
+    font-family: 'DM Serif Text', serif;
+    color: #ffffff;
+  }
+  
+  p {
+    font-size: calc(12px + (20 - 12) * ((100vw - 300px) / (1600 - 300)));
+    font-family: 'Raleway', sans-serif;
+    padding-left: 10px;
+    padding-right: 0px;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    line-height: 30px;
+  }
+  
+
+p > a {
+    text-decoration: none;
+    color: #db037a;
+  }
