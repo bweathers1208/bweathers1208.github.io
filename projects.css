@@ -35,7 +35,7 @@
 -------------------------*/
 body {
     padding-top: 60px;
-    background-color: #353535;
+    background-color: #35203a;
     color: rgb(190, 190, 190);
     }
   
@@ -57,15 +57,27 @@ body {
   }
   
   p {
-    font-size: calc(12px + (20 - 12) * ((100vw - 300px) / (1600 - 300)));
+    margin-top: 60px;
+    font-size: calc(18px + (30 - 18) * ((100vw - 300px) / (1600 - 300)));
     font-family: 'Raleway', sans-serif;
     padding-left: 10px;
     padding-right: 0px;
-    flex-wrap: wrap;
-    display: flex;
     text-align: center;
     width: 100%;
     line-height: 30px;
+  }
+
+  ul {
+        margin-top: 60px;
+        font-size: calc(18px + (30 - 18) * ((100vw - 300px) / (1600 - 300)));
+        font-family: 'Raleway', sans-serif;
+        padding-left: 10px;
+        padding-right: 0px;
+        flex-wrap: wrap;
+        display: flex;
+        text-align: center;
+        width: 100%;
+        line-height: 30px;
   }
   
 
