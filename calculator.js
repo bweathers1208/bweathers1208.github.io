@@ -5,9 +5,8 @@ const button = document.querySelector('button');
 button.addEventListener('click', showResult());
 
 function showResult(first, second){
-    var num1 = Number(form.querySelector("#first"));
-    var num2 = Number(form.querySelector("#sec"));
-    var result = num1 + num2;
-
-    return alert('Your result is ' + result);
+    var num1 = form.getElementById("#first");
+    var num2 = form.getElementById("#sec");
+    var result = Math.add(Number(num1) + Number(num2));
+    console.log(result);
 }
