@@ -1,12 +1,15 @@
 //jshint es6
 
 const button = document.querySelector('button');
+const form = document.querySelector('button');
+var num1 = document.getElementById('first');
+var num2 = document.getElementById('sec');
 
-button.addEventListener('click', showResult());
 
-function showResult(first, second){
-    var num1 = form.getElementById("#first");
-    var num2 = form.getElementById("#sec");
-    var result = Math.add(Number(num1) + Number(num2));
+
+function showResult(first, sec){
+    var result = (num1) + (num2);
     console.log(result);
 }
+
+button.addEventListener('click', showResult(num1, num2));
