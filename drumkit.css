@@ -1,8 +1,7 @@
 html {
     font-size: 10px;
-    background: url(braves.jpg) bottom center;
+    background: url(braves.jpg) bottom center opacity(60%);
     background-size: cover;
-    filter: opacity(60%);
   }
   
   body,html {
