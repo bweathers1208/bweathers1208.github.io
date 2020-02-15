@@ -1,13 +1,11 @@
-html {
-    font-size: 10px;
-    background: url(braves.jpg) bottom center opacity(60%);
-    background-size: cover;
-  }
+
   
-  body,html {
+  body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    background: url(braves.jpg) bottom center;
+    background-size: cover;
   }
 
   h1 {
@@ -16,6 +14,7 @@ html {
     font-family: 'Open Sans Condensed', sans-serif;
     text-align: center;
     line-height: 2;
+    text-shadow: solid black;
   }
 
   h2 {
@@ -23,6 +22,7 @@ html {
     font-size: 2em;
     text-align: center;
     line-height: 1.5;
+    text-shadow: 0, 0, 0, 0.5;
   }
   
   .keys {
@@ -34,23 +34,23 @@ html {
   }
   
   .key {
-    border: .4rem solid black;
+    border: .4em solid white;
     border-radius: .5rem;
     margin: 1rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 1rem .5rem;
-    transition: all .07s ease;
-    width: 10rem;
+    transition: all 1s ease;
+    width: 8rem;
     text-align: center;
     color: white;
-    background: rgba(0,0,0,0.4);
-    text-shadow: 0 0 .5rem black;
+    background: rgba(4, 66, 148, 0.7);
+    text-shadow: 0 0 .5rem rgb(3, 3, 3);
   }
   
   .playing {
     transform: scale(1.1);
     border-color: red;
-    box-shadow: 0 0 1rem blue;
+    box-shadow: 0 0 1em black;
   }
   
   kbd {
@@ -62,5 +62,5 @@ html {
     font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
-    color: red;
+    color: rgb(255, 68, 68);
   }
