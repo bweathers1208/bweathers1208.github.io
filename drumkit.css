@@ -9,6 +9,13 @@ html {
     padding: 0;
     font-family: sans-serif;
   }
+
+  h1 {
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    line-height: 2;
+  }
   
   .keys {
     display: flex;
