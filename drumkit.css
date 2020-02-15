@@ -76,3 +76,11 @@
     letter-spacing: .1rem;
     color: rgb(255, 68, 68);
   }
+
+  @media (max-width: 820px) {
+    html {
+      background-size: cover;
+      background-repeat: none;
+      background-position: top center;
+    }
+  }
