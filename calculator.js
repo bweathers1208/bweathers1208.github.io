@@ -13,3 +13,5 @@ function showResult(first, sec){
 }
 
 button.addEventListener('click', showResult(num1, num2));
+
+
