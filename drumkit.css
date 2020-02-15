@@ -16,6 +16,13 @@ html {
     text-align: center;
     line-height: 2;
   }
+
+  h2 {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    line-height: 1.5;
+  }
   
   .keys {
     display: flex;
