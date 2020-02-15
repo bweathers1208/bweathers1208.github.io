@@ -84,7 +84,12 @@ body {
   }
   
 
-p > a {
+a {
     text-decoration: none;
     color: #db037a;
   }
+
+a:hover {
+  text-decoration: none;
+  color: #f884c4;
+}

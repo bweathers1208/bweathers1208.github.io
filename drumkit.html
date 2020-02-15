@@ -12,6 +12,7 @@
 <header class="top-text">
   <h1>Sounds of a Baseball Game</h1>
   <h2>Inspired by Suntrust Park, Atlanta Braves</h2>
+  <h3>This project is NOT mobile-friendly!</h3>
 </header>
 
   <div class="keys">
@@ -82,6 +83,10 @@
   const keys = Array.from(document.querySelectorAll('.key'));
   keys.forEach(key => key.addEventListener('transitionend', removeTransition));
   window.addEventListener('keydown', playSound);
+
+  const keys = Array.from(document.querySelectorAll('.key'));
+  keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+  window.addEventListener('mouseclick', playSound);
 </script>
 
 
