@@ -9,6 +9,15 @@
 </head>
 <body>
 
+<div class="navbar">    
+    <a href="/">Home</a>
+    <a href="aboutmepage.html">About</a>
+    <a href="blogindex.html">Blog</a>
+    <a href="contactmepage.html">Contact</a>
+    <a href="linkedin.com/in/bri-weathers">LinkedIn</a>
+    <a href="projects.html">Projects</a>
+</div> 
+
 <header class="top-text">
   <h1>Sounds of a Baseball Game</h1>
   <h2>Inspired by Suntrust Park, Atlanta Braves</h2>
@@ -20,38 +29,38 @@
       <kbd>A</kbd>
       <span class="sound">Baseball Hit</span>
     </button>
-    <div data-key="83" class="key">
+    <button data-key="83" class="key">
       <kbd>S</kbd>
       <span class="sound">Cheering Crowd</span>
-    </div>
-    <div data-key="68" class="key">
+    </button>
+    <button data-key="68" class="key">
       <kbd>D</kbd>
       <span class="sound">Booing Crowd</span>
-    </div>
-    <div data-key="70" class="key">
+    </button>
+    <button data-key="70" class="key">
       <kbd>F</kbd>
       <span class="sound">Harry Caray</span>
-    </div>
-    <div data-key="71" class="key">
+    </button>
+    <button data-key="71" class="key">
       <kbd>G</kbd>
       <span class="sound">Charge</span>
-    </div>
-    <div data-key="72" class="key">
+    </button>
+    <button data-key="72" class="key">
       <kbd>H</kbd>
       <span class="sound">Surprised Crowd</span>
-    </div>
-    <div data-key="74" class="key">
+    </button>
+    <button data-key="74" class="key">
       <kbd>J</kbd>
       <span class="sound">3 Strikes</span>
-    </div>
-    <div data-key="75" class="key">
+    </button>
+    <button data-key="75" class="key">
       <kbd>K</kbd>
       <span class="sound">Excited!</span>
-    </div>
-    <div data-key="76" class="key">
+    </button>
+    <button data-key="76" class="key">
       <kbd>L</kbd>
       <span class="sound">Kiss Cam</span>
-    </div>
+    </button>
   </div>
 
   <audio data-key="65" src="bweathers1208.github.io/sounds/baseball_hit_orbitz.wav"></audio>
@@ -83,6 +92,26 @@
   const keys = Array.from(document.querySelectorAll('.key'));
   keys.forEach(key => key.addEventListener('transitionend', removeTransition));
   window.addEventListener('keydown', playSound);
+
+  
+  
+  for (var i = 0; i < document.querySelectorAll(".key").length; i++) {
+
+
+    document.querySelectorAll(".key")[i].addEventListener("click", handleClick);
+
+      function handleClick() {
+          alert("I got clicked!");
+          }
+
+
+  }
+  
+  
+
+
+
+
 
 </script>
 
