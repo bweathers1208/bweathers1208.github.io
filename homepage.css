@@ -27,12 +27,6 @@ h1 {
   color: whitesmoke;
 }
 
-@media screen and (max-width: 800px){
-  .row {
-    padding-top:60px;
-    margin-top: 50px;
-  }
-}
 /*Navbar text*/
 .navbar a {
   float: left;
@@ -101,6 +95,16 @@ h1 {
 img:hover {
       filter: contrast(120%) grayscale(0%)
 }
+
+
+/*Media Query for screens under 800px to show all links on home page*/
+@media screen and (max-width: 800px){
+  .row {
+    padding-top:60px;
+    margin-top: 50px;
+  }
+}
+
 
 /*on screens that most likely have a pointer, (larger than iPad) 
 disable column 1; touchlink; dropdown; and resize images appropriately?*/
