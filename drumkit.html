@@ -25,39 +25,39 @@
 </header>
 
   <div class="keys">
-    <button data-key="65" class="key">
+    <button data-key="65" class="a key">
       <kbd>A</kbd>
       <span class="sound">Baseball Hit</span>
     </button>
-    <button data-key="83" class="key">
+    <button data-key="83" class="s key">
       <kbd>S</kbd>
       <span class="sound">Cheering Crowd</span>
     </button>
-    <button data-key="68" class="key">
+    <button data-key="68" class="d key">
       <kbd>D</kbd>
       <span class="sound">Booing Crowd</span>
     </button>
-    <button data-key="70" class="key">
+    <button data-key="70" class="f key">
       <kbd>F</kbd>
       <span class="sound">Harry Caray</span>
     </button>
-    <button data-key="71" class="key">
+    <button data-key="71" class="g key">
       <kbd>G</kbd>
       <span class="sound">Charge</span>
     </button>
-    <button data-key="72" class="key">
+    <button data-key="72" class="h key">
       <kbd>H</kbd>
       <span class="sound">Surprised Crowd</span>
     </button>
-    <button data-key="74" class="key">
+    <button data-key="74" class="j key">
       <kbd>J</kbd>
       <span class="sound">3 Strikes</span>
     </button>
-    <button data-key="75" class="key">
+    <button data-key="75" class="k key">
       <kbd>K</kbd>
       <span class="sound">Excited!</span>
     </button>
-    <button data-key="76" class="key">
+    <button data-key="76" class="l key">
       <kbd>L</kbd>
       <span class="sound">Kiss Cam</span>
     </button>
@@ -97,21 +97,62 @@
   
   for (var i = 0; i < document.querySelectorAll(".key").length; i++) {
 
+    function handleClick() {
+      this.style.color = "red";
+  }
 
     document.querySelectorAll(".key")[i].addEventListener("click", handleClick);
 
-      function handleClick() {
-          playsound(e);
-          }
+      var buttonInnerHTML = this.innerHTML;
+
+      switch (buttonInnerHTML) {
+        case "a" : 
+            var baseballHit = new Audio('sounds/baseball_hit_orbitz.wav');
+            baseballHit.play();  
+          break;
+        case "s" : 
+            var cheering = new Audio('sounds/cheering.wav');
+            cheering.play();
+          break;
+        case "d" :
+            var boo = new Audio('sounds/boo.wav');
+            boo.play();
+          break;
+        case "f" :
+            var harryCaray = new Audio('sounds/holy_cow_x.wav');
+            harryCaray.play();
+          break;
+        case "g" :
+            var charge = new Audio('sounds/charge.wav');
+            charge.play();
+          break;
+        case "h" :
+            var gasp = new Audio('sounds/gasp_ohhh.wav');
+            gasp.play();
+          break;
+        case "j" :
+            var out = new Audio('sounds/whah_whah.wav');
+            out.play();
+          break;
+        case "k" :
+            var excited = new Audio('sounds/yay_z.wav');
+            excited.play();
+          break;
+        case "l" : 
+            var kissCam = new Audio('sounds/kiss_1992.wav');
+            kissCam.play();
+          break;
+        default : none;
+          break;
+      }
+  
+    //var audio = new Audio('/sounds/baseball_hit_orbitz.wav');
+
+//audio.play();
+
 
 
   }
-  
-  
-
-
-
-
 
 </script>
 
