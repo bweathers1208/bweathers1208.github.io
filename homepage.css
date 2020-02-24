@@ -26,6 +26,13 @@ h1 {
   transition: top 0.3s;
   color: whitesmoke;
 }
+
+@media screen and (max-width: 800px){
+  .row {
+    padding-top:60px;
+    margin-top: 50px;
+  }
+}
 /*Navbar text*/
 .navbar a {
   float: left;
